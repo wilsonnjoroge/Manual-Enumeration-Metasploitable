@@ -1,7 +1,7 @@
 # 🔍 Database Enumeration Report – Metasploitable2
  
 > This document provides a detailed technical write-up of database enumeration performed during the vulnerability assessment of Metasploitable2.  
-> See the consolidated high-level report here: [Full Technical Report](./04-reportingtechnical-report/metasploitable2-full-technical-report.md)
+> See the consolidated high-level report here: [Full Technical Report](./metasploitable2-full-technical-report.md)
 
 ---
 

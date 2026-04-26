@@ -1,6 +1,6 @@
 # Credential Reuse Testing Report – Metasploitable2
 
-> See the consolidated high-level report here: [Full Technical Report](./04-reporting/metasploitable2-full-technical-report.md)
+> See the consolidated high-level report here: [Full Technical Report](./metasploitable2-full-technical-report.md)
 
 ---
 

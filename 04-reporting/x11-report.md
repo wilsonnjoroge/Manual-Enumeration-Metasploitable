@@ -1,7 +1,7 @@
 # X11 Enumeration Report – Metasploitable2
 
 > This document provides a detailed technical write‑up of X11 enumeration performed during Phase 4 (Enumeration).
-> See the consolidated high-level report here: [Full Technical Report](./04-reporting/metasploitable2-full-technical-report.md)
+> See the consolidated high-level report here: [Full Technical Report](./metasploitable2-full-technical-report.md)
 
 ---
 

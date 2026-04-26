@@ -1,7 +1,7 @@
 # Banner Collection Report – Metasploitable2
 
 > This document provides a technical write-up of automated banner collection performed during Phase 4 (Enumeration).  
-> See the consolidated high-level report here: [Full Technical Report](./04-reporting/metasploitable2-full-technical-report.md)
+> See the consolidated high-level report here: [Full Technical Report](./metasploitable2-full-technical-report.md)
 
 ---
 
