@@ -238,7 +238,7 @@ All reports are located in `04-reporting/` and follow the same structured format
 
 | Report | Description |
 |---|---|
-| [`metasploitable2-full-technical-report.md`](./05-reporting/metasploitable2-full-technical-report.md) | Master report covering all findings across all services |
+| [`metasploitable2-full-technical-report.md`](./04-reporting/metasploitable2-full-technical-report.md) | Master report covering all findings across all services |
 | [`ftp-report.md`](./04-reporting/ftp-report.md) | FTP enumeration — vsftpd backdoor, anonymous login |
 | [`ssh-report.md`](./04-reporting/ssh-report.md) | SSH version, weak algorithms, credential testing |
 | [`telnet-report.md`](./04-reporting/telnet-report.md) | Telnet cleartext transmission, traffic capture |
