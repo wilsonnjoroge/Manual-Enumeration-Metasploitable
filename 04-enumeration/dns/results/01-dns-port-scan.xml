@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Feb 11 15:32:53 2026 as: /usr/lib/nmap/nmap -p 53 -sV -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/01-dns-port-scan 192.168.172.128 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -p 53 -sV -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/01-dns-port-scan 192.168.172.128" start="1770841973" startstr="Wed Feb 11 15:32:53 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="53"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1770841986" endtime="1770841993"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" product="ISC BIND" version="9.4.2" method="probed" conf="10"><cpe>cpe:/a:isc:bind:9.4.2</cpe></service></port>
+</ports>
+<times srtt="1523" rttvar="3759" to="100000"/>
+</host>
+<runstats><finished time="1770841993" timestr="Wed Feb 11 15:33:13 2026" summary="Nmap done at Wed Feb 11 15:33:13 2026; 1 IP address (1 host up) scanned in 20.31 seconds" elapsed="20.31" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

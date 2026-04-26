@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Wed Feb 11 15:58:14 2026 as: /usr/lib/nmap/nmap --script dns-recursion -p 53 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/04-dns-recussion-test 192.168.172.128
+Nmap scan report for 192.168.172.128
+Host is up (0.0012s latency).
+
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: xx:xx:xx:xx:xx:xx (REDACTED)
+
+# Nmap done at Wed Feb 11 15:58:27 2026 -- 1 IP address (1 host up) scanned in 13.67 seconds

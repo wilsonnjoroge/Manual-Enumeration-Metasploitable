@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed Feb  4 14:17:07 2026 as: /usr/lib/nmap/nmap -sV -p 21 -oA /mnt/shared/vulnerability-assessment/metasploitable2/04-enumeration/ftp/results/03-ftp-version 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 21/open/tcp//ftp//vsftpd 2.3.4/
+# Nmap done at Wed Feb  4 14:17:21 2026 -- 1 IP address (1 host up) scanned in 13.48 seconds

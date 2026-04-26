@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Fri Feb 13 16:16:54 2026 as: /usr/lib/nmap/nmap -sV -sC -p 111,2049 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/rpc-nfs/results/01-rpc-nfs-port-scan 192.168.172.128 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sV -sC -p 111,2049 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/rpc-nfs/results/01-rpc-nfs-port-scan 192.168.172.128" start="1771017414" startstr="Fri Feb 13 16:16:54 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="111,2049"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1771017427" endtime="1771017433"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="rpcbind" version="2" extrainfo="RPC #100000" method="probed" conf="10"/><script id="rpcinfo" output="&#xa;  program version    port/proto  service&#xa;  100000  2            111/tcp   rpcbind&#xa;  100000  2            111/udp   rpcbind&#xa;"><table key="100000">
+<table key="tcp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+</table>
+</table>
+<table key="udp">
+<elem key="port">111</elem>
+<table key="version">
+<elem>2</elem>
+</table>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="2049"><state state="closed" reason="reset" reason_ttl="64"/><service name="nfs" method="table" conf="3"/></port>
+</ports>
+<times srtt="400" rttvar="2878" to="100000"/>
+</host>
+<runstats><finished time="1771017433" timestr="Fri Feb 13 16:17:13 2026" summary="Nmap done at Fri Feb 13 16:17:13 2026; 1 IP address (1 host up) scanned in 19.59 seconds" elapsed="19.59" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

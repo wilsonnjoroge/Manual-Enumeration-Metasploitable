@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed Feb 11 15:32:53 2026 as: /usr/lib/nmap/nmap -p 53 -sV -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/01-dns-port-scan 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 53/open/tcp//domain//ISC BIND 9.4.2/
+# Nmap done at Wed Feb 11 15:33:13 2026 -- 1 IP address (1 host up) scanned in 20.31 seconds

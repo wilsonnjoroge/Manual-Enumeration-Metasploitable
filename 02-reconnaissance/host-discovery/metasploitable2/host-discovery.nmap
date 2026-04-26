@@ -1,0 +1,5 @@
+# Nmap 7.95 scan initiated Fri Jan 16 16:46:34 2026 as: /usr/lib/nmap/nmap -sn -oA /mnt/portfolio/portfolio/vulnerability-assessment/metasploitable2/scans/nmap/host-discovery 192.168.172.128
+Nmap scan report for 192.168.172.128
+Host is up (0.00050s latency).
+MAC Address: xx:xx:xx:xx:xx:xx (VMware)
+# Nmap done at Fri Jan 16 16:46:48 2026 -- 1 IP address (1 host up) scanned in 13.13 seconds

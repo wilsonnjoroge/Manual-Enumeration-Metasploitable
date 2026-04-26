@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Fri Feb 13 16:40:01 2026 as: /usr/lib/nmap/nmap --script nfs-showmount -p 111,2049 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/rpc-nfs/results/03-nfs-script-verification 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 111/open/tcp//rpcbind///, 2049/closed/tcp//nfs///
+# Nmap done at Fri Feb 13 16:40:14 2026 -- 1 IP address (1 host up) scanned in 13.25 seconds

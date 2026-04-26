@@ -1,0 +1,55 @@
+Script started on 2026-02-15 14:00:09-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="164" LINES="39"]
+                                                                                                                                                                    ]0;root@kali: /mnt[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/mnt[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hnmap -p 3306 --script mysql-emp[31D[36mn[36mm[36ma[36mp[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[10C[31D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m           [26D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[32C[53D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                                 [48D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[32C[53D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                                 [48D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-emp[28D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[10C[31D[39m [39m [39m [39m  [39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m           [31Dnmap -p 3306 --script mysql-emp[31D[36mn[36mm[36ma[36mp[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[10C[31D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m           [26D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[32C[53D[36mm[36my[36ms[36mq[39ml[32m [32m-[39mh $MS_[32mT[32mA[32mR[32mG[32mE[32mT[32m [32m-[39mu '' -p                         [25D[25D[36mq[36ml[39m[39m [32m-[32mh[39m[5C[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m [33m'[33m'[39m [32m-[32mp[39m[33ma[33mn[39mo[32mn[32my[39mmous[9D[39ma[39mno[39mn[39my[4C[25D[32m-[39mprotocol=TCP[32m [32m-[39mh $MS_TARGET -u root -p --skip-ssl[49D[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m[39m [32m-[32mh[39m[12C[32m-[32mu[39m[6C[32m-[32mp[39m [32m-[32m-[32ms[32mk[32mi[32mp[32m-[32ms[32ms[32ml[39m[49D[32mh[32m [32m$[32mM[32mS[32m_[32mT[32mA[32mR[32mG[32mE[32mT[32m [39m-[32mu[32m [39manonymous   [39m [39m       [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[25D[32mh[39m[39m [39m$[39mM[39mS[39m_[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m[39m [9C[25D[32m-[39mprotocol=TCP[32m [32m-[39mh $MS_TARGET -u root -p --skip-ssl[49D[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m[39m [32m-[32mh[39m[12C[32m-[32mu[39m[6C[32m-[32mp[39m [32m-[32m-[32ms[32mk[32mi[32mp[32m-[32ms[32ms[32ml[39m[56D[36mc[36ml[36me[36ma[36mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m       [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [51D[36ma[39m[39m [39m[4mc[39m[4ml[39m[4me[39m[4ma[24m[38;5;244mr[39m[4me[24m[24m [39m [38;5;244mar[39m[4mc[4ml[24m[24m [39m [39m [38;5;244mear[39m[4mc[24m[24m [39m [39m [39m [4mc[24m[38;5;244mlear[39m[24m [39m [39m [39m [39m mmysq[4mm[4my[4ms[4mq[24m[4mq[4ml[24m[24mm[24my[24ms[24mq[24ml --s[9D[36mm[36my[36ms[36mq[36ml[39m [32m-[32m-[32ms[39m[32ms[32ms[39m[10D[39mm[39my[39ms[39mq[39ml [39m-[39m-[39ms[39msl=0 --protocol=TCP -h $MS_TARGET -u root[50D[36mm[36my[36ms[36mq[36ml[39m [32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[?1l>[?2004l
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MySQL connection id is 16
+Server version: 5.0.51a-3ubuntu5 (Ubuntu)
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMySQL [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| dvwa               |
+| metasploit         |
+| mysql              |
+| owasp10            |
+| tikiwiki           |
+| tikiwiki195        |
++--------------------+
+(B[0;1m7 rows in set (0.002 sec)
+(B[m(B[0;1m
+(B[mMySQL [(none)]> whoami;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'whoami' at line 1
+(B[0;7m(B[mMySQL [(none)]> [17Gwhoami;[23G[K
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'whoami' at line 1
+(B[0;7m(B[mMySQL [(none)]> SELECT User,Host,Password FROM mysql.user;
++------------------+------+----------+
+| User             | Host | Password |
++------------------+------+----------+
+| debian-sys-maint |      |          |
+| root             | %    |          |
+| guest            | %    |          |
++------------------+------+----------+
+(B[0;1m3 rows in set (0.002 sec)
+(B[m(B[0;1m
+(B[mMySQL [(none)]> SHOW GRANTS FOR 'root'@'%';
++-------------------------------------------------------------+
+| Grants for root@%                                           |
++-------------------------------------------------------------+
+| GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION |
++-------------------------------------------------------------+
+(B[0;1m1 row in set (0.002 sec)
+(B[m(B[0;1m
+(B[mMySQL [(none)]> exit
+(B[0;1mBye
+(B[m                                                                                                                                                                    ]0;root@kali: /mnt
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/mnt[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004he[4me[24m[4me[24m[38;5;244mcho $((673792 * 512))[39m[21D[4me[39m[4mx[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[24m[36me[24m[36mx[39m[38;5;244mit[39m[36me[36mx[36mi[39m[39m[4me[39m[4mx[39m[4mi[24m[4mi[39m[4mt[24m[24m[36me[24m[36mx[24m[36mi[24m[36mt[39m[?1l>[?2004l
+
+Script done on 2026-02-15 14:01:34-05:00 [COMMAND_EXIT_CODE="0"]

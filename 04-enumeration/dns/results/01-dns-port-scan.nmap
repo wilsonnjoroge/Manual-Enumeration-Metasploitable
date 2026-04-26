@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Wed Feb 11 15:32:53 2026 as: /usr/lib/nmap/nmap -p 53 -sV -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/01-dns-port-scan 192.168.172.128
+Nmap scan report for 192.168.172.128
+Host is up (0.0015s latency).
+
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  ISC BIND 9.4.2
+MAC Address: xx:xx:xx:xx:xx:xx (REDACTED)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 11 15:33:13 2026 -- 1 IP address (1 host up) scanned in 20.31 seconds

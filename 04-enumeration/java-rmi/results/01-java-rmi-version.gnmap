@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sun Feb 15 15:07:20 2026 as: /usr/lib/nmap/nmap -sV -p 1099 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/java-rmi/results/01-java-rmi-version 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 1099/open/tcp//java-rmi//GNU Classpath grmiregistry/
+# Nmap done at Sun Feb 15 15:07:40 2026 -- 1 IP address (1 host up) scanned in 20.59 seconds

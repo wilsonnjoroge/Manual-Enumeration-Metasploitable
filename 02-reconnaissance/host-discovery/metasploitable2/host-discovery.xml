@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Fri Jan 16 16:46:34 2026 as: /usr/lib/nmap/nmap -sn -oA /mnt/portfolio/portfolio/vulnerability-assessment/metasploitable2/scans/nmap/host-discovery 192.168.172.128 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -oA /mnt/portfolio/portfolio/vulnerability-assessment/metasploitable2/scans/nmap/host-discovery 192.168.172.128" start="1768599994" startstr="Fri Jan 16 16:46:34 2026" version="7.95" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="496" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1768600008" timestr="Fri Jan 16 16:46:48 2026" summary="Nmap done at Fri Jan 16 16:46:48 2026; 1 IP address (1 host up) scanned in 13.13 seconds" elapsed="13.13" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

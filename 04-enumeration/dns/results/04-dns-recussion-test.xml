@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Feb 11 15:58:14 2026 as: /usr/lib/nmap/nmap -&#45;script dns-recursion -p 53 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/04-dns-recussion-test 192.168.172.128 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;script dns-recursion -p 53 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/dns/results/04-dns-recussion-test 192.168.172.128" start="1770843494" startstr="Wed Feb 11 15:58:14 2026" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="53"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1770843507" endtime="1770843507"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.172.128" addrtype="ipv4"/>
+<address addr="xx:xx:xx:xx:xx:xx" addrtype="mac" vendor="REDACTED"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+</ports>
+<times srtt="1179" rttvar="3789" to="100000"/>
+</host>
+<runstats><finished time="1770843507" timestr="Wed Feb 11 15:58:27 2026" summary="Nmap done at Wed Feb 11 15:58:27 2026; 1 IP address (1 host up) scanned in 13.67 seconds" elapsed="13.67" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

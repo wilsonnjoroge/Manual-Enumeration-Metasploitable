@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Mon Feb 16 03:55:54 2026 as: /usr/lib/nmap/nmap -sV -p 6000 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/x11/results/01-x11-service-detection 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 6000/open/tcp//X11//(access denied)/
+# Nmap done at Mon Feb 16 03:56:13 2026 -- 1 IP address (1 host up) scanned in 19.48 seconds

@@ -1,0 +1,136 @@
+Script started on 2026-02-15 14:27:59-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="164" LINES="39"]
+                                                                                                                                                                    ]0;root@kali: /mnt[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/mnt[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hexit[36me[36mx[36mi[36mt[39m[36mn[36mm[36ma[36mp[39m -p 3306 --script mysql-empmysql --ssl=0 --protocol=TCP -h $MS_TARGET -u root[76D[32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[16C[32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[81D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                 [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m      [76D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empmysql --ssl=0 --protocol=TCP -h $MS_TARGET -u root[78D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[16C[32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[81D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                 [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m      [76D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[32C[53D[36mm[36my[36ms[36mq[39ml[32m [32m-[39mh $MS_[32mT[32mA[32mR[32mG[32mE[32mT[32m [32m-[39mu '' -p                         [25D[25D[36mq[36ml[39m[39m [32m-[32mh[39m[5C[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m [33m'[33m'[39m [32m-[32mp[39m[33ma[33mn[39mo[32mn[32my[39mmous[9D[39ma[39mno[39mn[39my[4C[25D[32m-[39mprotocol=TCP[32m [32m-[39mh $MS_TARGET -u root -p --skip-ssl[49D[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m[39m [32m-[32mh[39m[12C[32m-[32mu[39m[6C[32m-[32mp[39m [32m-[32m-[32ms[32mk[32mi[32mp[32m-[32ms[32ms[32ml[39m[49D[32mh[32m [32m$[32mM[32mS[32m_[32mT[32mA[32mR[32mG[32mE[32mT[32m [39m-[32mu[32m [39manonymous   [39m [39m       [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[25D[32mh[39m[39m [39m$[39mM[39mS[39m_[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m[39m [9C[9D'' -p    [33m'[33m'[39m [32m-[32mp[39m[28D[36mn[36mm[36ma[36mp[36m [39m-[32mp[32m [39m3306 --scrip[32mt[32m [39mm[33my[33ms[39mq[32ml[32m-[39mempty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[39m [5C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[39m m[39my[39msq[39ml[39m-[25C[53D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                                 [48D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empmysql --ssl=0 --protocol=TCP -h $MS_TARGET -u root[78D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[16C[32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[81D[36me[36mx[36mi[36mt[39m [39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                 [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m      [77D[39m [39m [39m [39m exit[36me[36mx[36mi[36mt[39m[36mn[36mm[36ma[36mp[39m -p 3306 --script mysql-empmysql --ssl=0 --protocol=TCP -h $MS_TARGET -u root[76D[32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[16C[32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[81D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                 [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m      [76D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[32C[53D[36mm[36my[36ms[36mq[39ml[32m [32m-[39mh $MS_[32mT[32mA[32mR[32mG[32mE[32mT[32m [32m-[39mu '' -p                         [25D[25D[36mq[36ml[39m[39m [32m-[32mh[39m[5C[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m [33m'[33m'[39m [32m-[32mp[39m[33ma[33mn[39mo[32mn[32my[39mmous[9D[39ma[39mno[39mn[39my[4C[25D[32m-[39mprotocol=TCP[32m [32m-[39mh $MS_TARGET -u root -p --skip-ssl[49D[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m[39m [32m-[32mh[39m[12C[32m-[32mu[39m[6C[32m-[32mp[39m [32m-[32m-[32ms[32mk[32mi[32mp[32m-[32ms[32ms[32ml[39m[56D[36mc[36ml[36me[36ma[36mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m       [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [51D[36mp[36mi[36mn[36mg[36m [39m-c 4 $MS_TARGET[17D[36mg[39m[39m [32m-[32mc[39m[13C[20D[36mc[36ml[36me[36ma[39mr[39m [39m              [15D[36ma[36mr[39m[36ms[36mu[36md[36mo[36m [39mls -lh /mnt/windows_evidence/Windows/System32/winevt/Logs/ | grep -E '(Security|System|Application)\.evtx'[111D[4m[32ms[4m[32mu[4m[32md[4m[32mo[24m[39m[39m [36ml[36ms[39m [32m-[32ml[32mh[39m [1m/[1mm[1mn[1mt[1m/[1mw[1mi[1mn[1md[1mo[1mw[1ms[1m_[1me[1mv[1mi[1md[1me[1mn[1mc[1me[1m/[1mW[1mi[1mn[1md[1mo[1mw[1ms[1m/[1mS[1my[1ms[1mt[1me[1mm[1m3[1m2[1m/[1mw[1mi[1mn[1me[1mv[1mt[1m/[1mL[1mo[1mg[1ms[1m/[0m [1m[34m|[0m[39m [36mg[36mr[36me[36mp[39m [32m-[32mE[39m [33m'[1m[34m([0m[39m[33mS[33me[33mc[33mu[33mr[33mi[33mt[33my[33m|[33mS[33my[33ms[33mt[33me[33mm[33m|[33mA[33mp[33mp[33ml[33mi[33mc[33ma[33mt[33mi[33mo[33mn[1m[34m)[0m[39m[33m\[33m.[33me[33mv[33mt[33mx[33m'[39m[100Dt[1m [1m/[1mm[1mn[1mt[1m/[1mw[1mi[1mn[1md[1mo[1mw[1ms[1m_[1me[1mv[1mi[1md[1me[1mn[1mc[1me[1m/[1mW[1mi[1mn[1md[1mo[1mw[1ms[1m/[1mP[1mr[1me[1mf[1me[1mt[1mc[1mh[1m/[1m*[1m.[1mp[1mf[1m [1m|[1m [1mh[1me[1ma[1md[0m [1m[34m-[0m[39m1[36m0[39m[39m [39m [39m  [39m [39m  [39m [0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [0m[39m [39m [39m [39m [39m [39m [39m [39m [44D[57D[32mh[32mt[39m[0m [0m/[0mm[0mn[0mt[0m/[0mw[0mi[0mn[0md[0mo[0mw[0ms[0m_[0me[0mv[0mi[0md[0me[0mn[0mc[0me[0m/[0mW[0mi[0mn[0md[0mo[0mw[0ms[0m/[0mP[0mr[0me[0mf[0me[0mt[0mc[0mh[0m/[1m[34m*[0m[39m[0m.[0mp[0mf[0m [1m[34m|[0m[39m[0m [0m[36mh[0m[36me[0m[36ma[0m[36md[39m [0m[32m-[32m1[32m0[39m[56D[32m [39m[P[30CSystem32/[0m[39mw[1m[34mi[0m[39mnev[0m[39mt[1m[34m/[0m[39m[39mL[36mo[36mg[36ms[36m/[39m[39m [32m|[32m [32mg[39mrep -E '(Security|System|Application)\.evtx'[101D[32mh[39m[39m [1m/[1mm[1mn[1mt[1m/[1mw[1mi[1mn[1md[1mo[1mw[1ms[1m_[1me[1mv[1mi[1md[1me[1mn[1mc[1me[1m/[1mW[1mi[1mn[1md[1mo[1mw[1ms[1m/[1mS[1my[1ms[1mt[1me[1mm[1m3[1m2[1m/[1mw[39m[1mi[1mn[1me[1mv[1mt[39m[1m/[1mL[39m[1mo[39m[1mg[39m[1ms[39m[1m/[0m [1m[34m|[0m[39m[39m [36mg[36mr[36me[36mp[39m [32m-[32mE[39m [33m'[1m[34m([0m[39m[33mS[33me[33mc[33mu[33mr[33mi[33mt[33my[33m|[33mS[33my[33ms[33mt[33me[33mm[33m|[33mA[33mp[33mp[33ml[33mi[33mc[33ma[33mt[33mi[33mo[33mn[1m[34m)[0m[39m[33m\[33m.[33me[33mv[33mt[33mx[33m'[39m[111D[4m[32mc[4m[32ml[4m[32me[4m[32ma[24m[39mr[39m [39m  [39m [39m [39m  [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m  [0m[39m  [39m [39m [39m [39m  [39m [39m  [39m [0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [0m[39m [39m [39m [39m [39m [39m [39m [39m [106D[24m[36mc[24m[36ml[24m[36me[24m[36ma[36mr[39m[36mp[36mi[36mn[36mg[36m [39m-c 4 $MS_TARGET[17D[36mg[39m[39m [32m-[32mc[39m[13C[20D[36mc[36ml[36me[36ma[39mr[39m [39m              [15D[36ma[36mr[39m[36mm[36my[36ms[36mq[36ml[39m --protocol=TCP -h $MS_TARGET -u root -p --skip-ssl[50D[32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[6C[32m-[32mp[39m [32m-[32m-[32ms[32mk[32mi[32mp[32m-[32ms[32ms[32ml[39m[49D[32mh[32m [32m$[32mM[32mS[32m_[32mT[32mA[32mR[32mG[32mE[32mT[32m [39m-[32mu[32m [39manonymous   [39m [39m       [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[25D[32mh[39m[39m [39m$[39mM[39mS[39m_[39mT[39mA[39mR[39mG[39mE[39mT[39m [32m-[32mu[39m[39m [9C[9D'' -p    [33m'[33m'[39m [32m-[32mp[39m[28D[36mn[36mm[36ma[36mp[36m [39m-[32mp[32m [39m3306 --scrip[32mt[32m [39mm[33my[33ms[39mq[32ml[32m-[39mempty-password $TARGET_IP[50D[36mp[39m[39m [32m-[32mp[39m[39m [5C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[39m m[39my[39msq[39ml[39m-[25C[53D[36mc[36ml[36me[36ma[39mr[39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                                 [48D[36ma[36mr[39m[36mn[36mm[36ma[36mp[36m [39m-p 3306 --script mysql-empmysql --ssl=0 --protocol=TCP -h $MS_TARGET -u root[78D[36mp[39m[39m [32m-[32mp[39m[6C[32m-[32m-[32ms[32mc[32mr[32mi[32mp[32mt[39m[16C[32m-[32m-[32ms[32ms[32ml[32m=[32m0[39m [32m-[32m-[32mp[32mr[32mo[32mt[32mo[32mc[32mo[32ml[32m=[32mT[32mC[32mP[39m [32m-[32mh[39m[12C[32m-[32mu[39m[5C[81D[36me[36mx[36mi[36mt[39m [39m [39m       [39m [39m [39m [39m [39m [39m [39m [39m                 [39m [39m [39m [39m [39m [39m [39m  [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m  [39m [39m             [39m [39m      [77D[39m [39m [39m [39m p[4mp[24m[4mp[4ms[24m[24mp[24msql -h $MS_TARGET -U postgres[30D[36mp[36ms[36mq[36ml[39m [32m-[32mh[39m[12C[32m-[32mU[39m[9C[?1l>[?2004l
+Password for user postgres: 
+psql (18.1 (Debian 18.1-1), server 8.3.1)
+WARNING: psql major version 18, server major version 8.3.
+         Some psql features might not work.
+Type "help" for help.
+
+[?2004hpostgres=# SELECT datname FROM pg_database;
+[?2004l  datname  
+-----------
+ template1
+ template0
+ postgres
+(3 rows)
+
+[?2004hpostgres=# Ssename, usesuper FROM pg_user;[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSELECT usename, usesuper FROM pg_user;
+[?2004l usename  | usesuper 
+----------+----------
+ postgres | t
+(1 row)
+
+[?2004hpostgres=# SELECT grantee, privilege_type
+[?2004l[?2004hpostgres-# FROM information_schema.role_table_grants;
+[?2004l[?1049h[22;0;0t[39;1H[?1h= grantee  | privilege_type 
+----------+----------------
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[K postgres | SELECT
+:[K[K [KESCESC[KOO[KBB[K postgres | DELETE
+:[K[K [KESCESC[KOO[KBB[K postgres | INSERT
+:[K[K [KESCESC[KOO[KBB[K postgres | UPDATE
+:[K[K [KESCESC[KOO[KBB[K postgres | REFERENCES
+:[K[K [KESCESC[KOO[KBB[K postgres | TRIGGER
+:[K[K [KESCESC[KOO[KBB[K postgres | SELECT
+:[K[K [KESCESC[KOO[KBB[K postgres | DELETE
+:[K[K [KESCESC[KOO[KBB[K postgres | INSERT
+:[K[K [KESCESC[KOO[KAA[K[HM postgres | SELECT
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | TRIGGER
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | REFERENCES
+[39;1H[K:[K[K [KESCESC[KOO[KBB[K postgres | SELECT
+:[K[K [KESCESC[KOO[KBB[K postgres | DELETE
+:[K[K [KESCESC[KOO[KBB[K postgres | INSERT
+:[K[K [KESCESC[KOO[KBB[K postgres | UPDATE
+:[K[K [KESCESC[KOO[KBB[K postgres | REFERENCES
+:[K[K [KESCESC[KOO[KBB[K postgres | TRIGGER
+:[K[K [KESCESC[KOO[KAA[K[HM postgres | UPDATE
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | INSERT
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | DELETE
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | SELECT
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | TRIGGER
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | REFERENCES
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | UPDATE
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | INSERT
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | DELETE
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM postgres | SELECT
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM----------+----------------
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[HM grantee  | privilege_type 
+[39;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KESCESC[K [KESCESC[Kqq[K:[K[K[?1l>[?1049l[23;0;0t[?2004hpostgres=# [7mSELECT grantee, privilege_type[27m[C[C[C[C[C[C[C[C[C[C[CSELECT grantee, privilege_type [K [7mFROM information_schema.role_table_grants;[27mFROM information_schema.role_table_grants;
+[?2004l[?1049h[22;0;0t[39;1H[?1h= grantee  | privilege_type 
+----------+----------------
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ postgres | SELECT
+ postgres | DELETE
+ postgres | INSERT
+ postgres | UPDATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+:[K[K[?1l>[?1049l[23;0;0t[?2004hpostgres=# exit
+[?2004l                                                                                                                                                                    ]0;root@kali: /mnt
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/mnt[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hm[4mm[24m[4mm[24m[38;5;244mysql -h $MS_TARGET -u '' -p[39m[27D[4mm[39m[4mv[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26D[24m[36mm[24m[36mv[39m[38;5;244m windows_data windows_evidence[39m[30D[36mm[36mv[36m [39m[36mm[36mv[39m[3

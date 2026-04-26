@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Sun Feb 15 15:23:18 2026 as: /usr/lib/nmap/nmap --script rmi-dumpregistry -p 1099 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/java-rmi/results/02-rmi-registry-dump 192.168.172.128
+Nmap scan report for 192.168.172.128
+Host is up (0.0013s latency).
+
+PORT     STATE SERVICE
+1099/tcp open  rmiregistry
+MAC Address: xx:xx:xx:xx:xx:xx (REDACTED)
+
+# Nmap done at Sun Feb 15 15:23:32 2026 -- 1 IP address (1 host up) scanned in 13.87 seconds

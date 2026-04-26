@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Tue Feb 17 05:01:18 2026 as: /usr/lib/nmap/nmap -sS -sV -p 8180 -oA /mnt/shared/portfolio/vulnerability-assessment/metasploitable2/04-enumeration/tomcat/results/01-tomcat-service-enumeration 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 8180/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/
+# Nmap done at Tue Feb 17 05:01:42 2026 -- 1 IP address (1 host up) scanned in 24.50 seconds

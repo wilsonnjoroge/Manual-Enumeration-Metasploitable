@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Feb  5 02:01:29 2026 as: /usr/lib/nmap/nmap -sV -p 22 -oA /mnt/shared/vulnerability-assessment/metasploitable2/04-enumeration/ssh/results/03-ssh-version 192.168.172.128
+Host: 192.168.172.128 ()	Status: Up
+Host: 192.168.172.128 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)/
+# Nmap done at Thu Feb  5 02:01:44 2026 -- 1 IP address (1 host up) scanned in 14.50 seconds
