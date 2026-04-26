@@ -49,16 +49,19 @@ Network  : VMware Host-Only (isolated, no internet access)
 ### VM Configuration
 
 ![VM Configuration](./01-pre-engagement/evidence/metasploitable2-vm-configurations.png)
+
 *Metasploitable2 VM configured on an isolated Host-Only network adapter in VMware.*
 
 ### Attacker → Target Reachability
 
 ![Reachability Verification](./01-pre-engagement/evidence/metasploitable2-vm-reachability-from-kali-vm.png)
+
 *ICMP reachability confirmed from Kali (`kali`) to Metasploitable2 before testing commenced.*
 
 ### Network Isolation Verification
 
 ![Network Isolation](./01-pre-engagement/evidence/metasploitable2-ping-network-isolation-verification.png)
+
 *Outbound internet access confirmed blocked — target is fully isolated within the lab network.*
 
 Before any testing commenced, the lab network was verified to be fully isolated from external networks. Full evidence is documented in `01-pre-engagement/`:
@@ -86,7 +89,7 @@ Before any testing commenced, the lab network was verified to be fully isolated 
 │   ├── host-discovery/
 │   └── os-fingerprinting/
 │
-├── 04-enumeration/             # Service-by-service manual enumeration
+├── 03-enumeration/             # Service-by-service manual enumeration
 │   ├── banner-analysis/        # Banner collection across all services
 │   ├── credential-testing/     # Default/common credential testing
 │   ├── database/               # MySQL & PostgreSQL enumeration
@@ -101,9 +104,24 @@ Before any testing commenced, the lab network was verified to be fully isolated 
 │   ├── web-enumeration/        # Directory brute-force, tech fingerprinting
 │   └── x11/                   # X11 service detection & access test
 │
-├── 05-reporting/               # Full technical reports per service
+├── 04-reporting/               # Full technical reports per service
+│   ├── metasploitable2-full-technical-report.md  # Master report — all findings
+│   ├── ftp-report.md
+│   ├── ssh-report.md
+│   ├── telnet-report.md
+│   ├── smtp-report.md
+│   ├── dns-report.md
+│   ├── web-enumeration-report.md
+│   ├── database-enumeration-report.md
+│   ├── tomcat-report.md
+│   ├── rpc-nfc-report.md
+│   ├── java-rmi-report.md
+│   ├── x11-report.md
+│   ├── banner-collection-report.md
+│   └── credential-reuse--testing-report.md
 └── resources/                  # Methodology references
 ```
+
 
 Each enumeration subfolder follows a consistent layout:
 
