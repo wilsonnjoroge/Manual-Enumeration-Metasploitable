@@ -199,59 +199,59 @@ The screenshots below are representative evidence from `04-enumeration/`, illust
 
 **FTP — Anonymous Login (Port 21)**
 
-![FTP Anonymous Login](./04-enumeration/ftp/screenshots/02-ftp-anon-login.png)
+![FTP Anonymous Login](./03-enumeration/ftp/screenshots/02-ftp-anon-login.png)
 *Anonymous FTP login accepted with no credentials — full read access to the FTP share confirmed.*
 
 ---
 
 **MySQL — Root Access, No Password (Port 3306)**
 
-![MySQL Root No Password](./04-enumeration/database/screenshots/01-mysql-enumeration.png)
+![MySQL Root No Password](./03-enumeration/database/screenshots/01-mysql-enumeration.png)
 *MySQL root account accessible with no password — full database access without authentication.*
 
 ---
 
 **Telnet — Cleartext Traffic Capture (Port 23)**
 
-![Telnet Traffic Capture](./04-enumeration/telnet/screenshots/03-telnet-traffic-capture.png)
+![Telnet Traffic Capture](./03-enumeration/telnet/screenshots/03-telnet-traffic-capture.png)
 *Wireshark capture of a Telnet session — credentials and session data transmitted in cleartext across the network.*
 
 ---
 
 **SSH — Credential Testing**
 
-![SSH Credential Test](./04-enumeration/ssh/screenshots/04-ssh-credential-test-a.png)
+![SSH Credential Test](./03-enumeration/ssh/screenshots/04-ssh-credential-test-a.png)
 *SSH credential reuse testing against Metasploitable2 — confirming weak default account access.*
 
 ---
 
 **Banner Analysis — All Services**
 
-![Banner Analysis Script](./04-enumeration/banner-analysis/screenshots/01-banner-analysis-script.png)
+![Banner Analysis Script](./03-enumeration/banner-analysis/screenshots/01-banner-analysis-script.png)
 *Custom `collect-banners.sh` script harvesting service banners across all open ports in a single pass.*
 
 ---
 
 ## 7. Reports
 
-All reports are located in `05-reporting/` and follow the same structured format used throughout this documentation.
+All reports are located in `04-reporting/` and follow the same structured format used throughout this documentation.
 
 | Report | Description |
 |---|---|
 | [`metasploitable2-full-technical-report.md`](./05-reporting/metasploitable2-full-technical-report.md) | Master report covering all findings across all services |
-| [`ftp-report.md`](./05-reporting/ftp-report.md) | FTP enumeration — vsftpd backdoor, anonymous login |
-| [`ssh-report.md`](./05-reporting/ssh-report.md) | SSH version, weak algorithms, credential testing |
-| [`telnet-report.md`](./05-reporting/telnet-report.md) | Telnet cleartext transmission, traffic capture |
-| [`smtp-report.md`](./05-reporting/smtp-report.md) | SMTP user enumeration, open relay testing |
-| [`dns-report.md`](./05-reporting/dns-report.md) | DNS version disclosure, recursion, zone testing |
-| [`web-enumeration-report.md`](./05-reporting/web-enumeration-report.md) | Directory brute-force, tech fingerprinting, exposed paths |
-| [`database-enumeration-report.md`](./05-reporting/database-enumeration-report.md) | MySQL & PostgreSQL unauthenticated access |
-| [`tomcat-report.md`](./05-reporting/tomcat-report.md) | Tomcat manager interface, default credentials |
-| [`rpc-nfc-report.md`](./05-reporting/rpc-nfc-report.md) | RPC services, NFS export enumeration |
-| [`java-rmi-report.md`](./05-reporting/java-rmi-report.md) | Java RMI registry dump |
-| [`x11-report.md`](./05-reporting/x11-report.md) | X11 service detection and access test |
-| [`banner-collection-report.md`](./05-reporting/banner-collection-report.md) | Aggregated banner analysis across all services |
-| [`credential-reuse--testing-report.md`](./05-reporting/credential-reuse--testing-report.md) | Credential reuse testing across SSH, FTP, Telnet, MySQL, PostgreSQL |
+| [`ftp-report.md`](./04-reporting/ftp-report.md) | FTP enumeration — vsftpd backdoor, anonymous login |
+| [`ssh-report.md`](./04-reporting/ssh-report.md) | SSH version, weak algorithms, credential testing |
+| [`telnet-report.md`](./04-reporting/telnet-report.md) | Telnet cleartext transmission, traffic capture |
+| [`smtp-report.md`](./04-reporting/smtp-report.md) | SMTP user enumeration, open relay testing |
+| [`dns-report.md`](./04-reporting/dns-report.md) | DNS version disclosure, recursion, zone testing |
+| [`web-enumeration-report.md`](./04-reporting/web-enumeration-report.md) | Directory brute-force, tech fingerprinting, exposed paths |
+| [`database-enumeration-report.md`](./04-reporting/database-enumeration-report.md) | MySQL & PostgreSQL unauthenticated access |
+| [`tomcat-report.md`](./04-reporting/tomcat-report.md) | Tomcat manager interface, default credentials |
+| [`rpc-nfc-report.md`](./04-reporting/rpc-nfc-report.md) | RPC services, NFS export enumeration |
+| [`java-rmi-report.md`](./04-reporting/java-rmi-report.md) | Java RMI registry dump |
+| [`x11-report.md`](./04-reporting/x11-report.md) | X11 service detection and access test |
+| [`banner-collection-report.md`](./04-reporting/banner-collection-report.md) | Aggregated banner analysis across all services |
+| [`credential-reuse--testing-report.md`](./04-reporting/credential-reuse--testing-report.md) | Credential reuse testing across SSH, FTP, Telnet, MySQL, PostgreSQL |
 
 ---
 
@@ -268,10 +268,11 @@ The following methodology documents guided this engagement and are available in 
 
 ## 9. Next Steps
 
-Enumeration (`04-enumeration/`) and per-service reporting (`05-reporting/`) are **complete**. The engagement now progresses into three remaining phases: exploitation for validation, post-exploitation analysis, and remediation verification. These will be tracked under new directories that mirror the numbering convention already established.
-
-> **Note:** `03-scanning/` is a planned directory that currently sits between reconnaissance and enumeration and will be populated with full Nmap scanning artefacts before the engagement closes.
-
+The engagement now progresses into three remaining phases: 
+* Exploitation for validation
+* Post-exploitation analysis
+* Remediation verification.  
+These will be tracked under new directories that mirror the numbering convention already established.
 ---
 
 ### 9.1 Exploitation & Validation → `06-exploitation/`
