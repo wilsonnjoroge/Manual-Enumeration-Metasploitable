@@ -182,7 +182,7 @@ The AJP connector on Tomcat 5.5 is vulnerable to Ghostcat. OpenVAS confirmed the
 
 ---
 
-### F-009 — PHP CGI Remote Code Execution (Port 80)
+### F-009 — PHP CGI Remote Code Execution (Port 80) 
 
 **CVE:** CVE-2012-1823, CVE-2012-2311, CVE-2012-2336 | **CVSS:** 9.8 | **Port:** 80/TCP
 **Scanner confirmation:** OpenVAS confirmed PHP code execution — phpinfo() returned (QoD 95)
